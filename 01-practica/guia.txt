@@ -1,0 +1,49 @@
+Guia para la instalacion de linux en una maquina virtual y, posteriormente abrir un repositorio de github con Git y VSCODE:
+
+GUIA DE CREACION DE UNA MAQUINA VIRTUAL CON VIRTUALBOX Y UBUNTU.
+
+1. Hay que instalar el programa "virtualbox" de oracle.
+
+2. Descargar el archivo ISO de la distro de linux que queremos utilizar, Ubuntu en este caso.
+
+3. Una vez instalados estos 2 elementos, entrar al programa de virtualbox y dar click en la opcion "nueva" o "new".
+
+4. Ahora, se desplegara una ventana en la cual se debe hacer lo siguiente de arriba a abajo:
+    4.1. Elegir el nombre que queremos que nuestra maquina virtual tenga.
+    4.2. Elegir la carpeta donde queremos que se guarde la maquina virtual, por comodidad, se recomienda dejar la carpeta por defecto
+    4.3. Seleccionar la ISO previamente descargada.
+
+5. Dar click en "siguiente".
+
+6. Se llenaran los datos que se piden en la nueva ventana, en este caso, a la izquierda usuario, contraseña que apareceran en el 
+   sistema y a la derecha, el host name y dominio.
+
+7. A partir de aqui, se seleccionaran los recursos que se dedicaran a esta maquina virtual:
+    7.1. Todos los recursos son de a cuerdo a las preferencias de quien vaya a utilizar la maquina,
+         pero es vital nunca sobrepasar la parte roja de la barra.
+
+8. Finalmente se abrira una pestaña que nos resumira todo lo que hemos seleccionado hasta el momento. Despues de confirmar
+   que todo sea correcto, solo queda dar click en "terminar" y la maquina se habra creado.
+
+9. Por ultimo, solo quedara iniciar la maquina virtual y dejar que el sistema operativo se instale.
+
+
+CREACION DE UN REPOSITORIO EN GITHUB MEDIANTE GIT Y VSCODE
+
+1. Como primer paso, necesitamos tener instalado tanto VSCODE como Git y tener una cuenta de github
+
+2. Una vez instalados los elementos necesarios, se abre VSCode y se abre la seccion de "Source control" en el panel izquierdo
+
+3. Dar click en el boton "initialize repository" y posteriormente sincronizarlo con github.
+
+Clonacion de repositorio:
+
+1. Primero, al iniciar VSCode, en la pestaña de bienvenida, aparecera la opcion "clone Git repository" a la que se dara click
+
+2. Posteriormente, en la parte superior aparecera la opcion "Clone from github" a la que tambien daremos click
+
+3. Se nos dara como opcion los repositorios que tengamos en nuestra cuenta de github a lo que seleccionaremos uno.
+
+4. Para finalizar, solo habra que seleccionar la ubicacion en la que queremos que se clone el repositorio de forma local.
+
+FIN, GRACIAS POR LEER LA GUIA
